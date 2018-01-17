@@ -30,6 +30,3 @@ self.toolbox.router.any('/*', self.toolbox.fastest);
 // and then only use that cached resource if your user goes offline
 self.toolbox.router.default = self.toolbox.networkFirst;
 
-ngOnInit() {
-    self.StatusBar.hide();
-}
